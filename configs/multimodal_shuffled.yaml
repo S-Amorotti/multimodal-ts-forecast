@@ -1,0 +1,14 @@
+data:
+  path: data/ETTm1.csv
+  lookback: 96
+  horizon: 24
+
+model:
+  use_images: true
+  shuffle_images: true
+
+train:
+  batch_size: 64
+  lr: 0.001
+  epochs: 10
+  save_path: outputs/multimodal_shuffled.pt
