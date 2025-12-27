@@ -10,14 +10,9 @@ to extract semantic features (trend, volatility, regime).
 - CNN over GAF image
 - Late fusion
 
-## Results
-(table)
-
 ## Ablations
 Shuffled images remove gains → modality matters.
 
-## When it helps / when it doesn’t
-(honest discussion)
 
 ## Next steps
 - Image-to-text captions
